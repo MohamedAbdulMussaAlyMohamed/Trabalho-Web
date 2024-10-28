@@ -1,0 +1,75 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
+    background-image:url("MK.JPG");
+    position: absolute;
+    opacity: 0.3;
+    background-position: 0 -300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+body{
+    width: 100%;
+    height: auto;
+    background:black;
+}
+header{
+width: 100%;
+height: 50px;
+background:white;
+position: absolute;
+}
+ul{
+    text-align: center;
+    margin-top: 15px;
+}
+a{
+    color: blue;
+    margin-top: 15px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+a:hover{
+    border: 1px solid black;
+    border-left:1px solid green;
+    border-right:1px solid yellow;
+}
+aside{
+    width: 100%;
+    height: 90vh;
+    
+}
+#texto{
+    padding-top: 200px;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    margin-top: 150PX;
+    color: rgb(49, 11, 11);
+}
+h1{
+    font-size: 80px;
+}
+.a1{
+    background: black;
+    color: white;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    width: 100%;
+    background: blue;
+}
